@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => '/verified_case', 'as' => 'verified_case.'], function() {
     Route::get('/index', 'VerifiedCaseController@index')->name('index');
+    Route::get('/index_data', 'VerifiedCaseController@indexData')->name('index_data');
     Route::get('/create', 'VerifiedCaseController@create')->name('create');
     Route::post('/store', 'VerifiedCaseController@store')->name('store');
     Route::get('/edit/{verified_case}', 'VerifiedCaseController@edit')->name('edit');

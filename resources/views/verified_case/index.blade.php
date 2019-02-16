@@ -13,7 +13,9 @@
             Manajemen Basis Kasus
         </div>
         <div class="card-body">
-           
+           <div id="app">
+               <verifiedcase-index raw_url="{{ route('verified_case.index_data') }}"/>
+           </div>
         </div>
     </div>
 </div>

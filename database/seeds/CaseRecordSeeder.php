@@ -19,7 +19,7 @@ class CaseRecordSeeder extends Seeder
             
             $features = Feature::select('id')->get();
 
-            factory(CaseRecord::class, 60)
+            factory(CaseRecord::class, 1000)
                 ->create()
                 ->each(function ($caseRecord) use ($features) {
                     foreach ($features as $feature) {

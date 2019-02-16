@@ -1514,7 +1514,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-env@^5.1, cross-env@^5.2.0:
+cross-env@^5.1:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
   dependencies:
@@ -3116,7 +3116,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-laravel-mix@^4.0.14, laravel-mix@^4.0.7:
+laravel-mix@^4.0.7:
   version "4.0.14"
   resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-4.0.14.tgz#949374650d39f2c937257ad2749dab039b848f28"
   dependencies:
@@ -5116,14 +5116,6 @@ svgo@^1.0.0:
     stable "~0.1.6"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
-
-table-manager@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/table-manager/-/table-manager-1.0.1.tgz#c2a184bdad9c03ce0476014993ce0f2b7823c3a3"
-  integrity sha512-UBUnwYOi5Elygn8KGLAX2czUx1mSuMNqJbmhucZp5mBhqXlF54UaCyCBwOA9lrchYDuEmNoUcEdAz0g0J07vwQ==
-  dependencies:
-    cross-env "^5.2.0"
-    laravel-mix "^4.0.14"
 
 tapable@^1.0.0, tapable@^1.1.0:
   version "1.1.1"

@@ -3,12 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\CaseRecord;
 
 class VerifiedCaseController extends Controller
 {
     public function index()
     {
         return view('verified_case.index');
+    }
+
+    public function indexData()
+    {
+        return CaseRecord::paginate(10);
     }
     
     public function create()
